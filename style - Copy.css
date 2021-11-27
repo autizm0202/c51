@@ -1,0 +1,46 @@
+h1 {
+    color: #aa30dd;
+    padding: 10px;
+    font: 900;
+    
+}
+
+ * {
+    border: solid;
+    border-color: black;
+    
+} 
+
+.header{
+    background-color: #019040;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: first baseline;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    color: #ff01cc
+}
+
+body{
+    background-color: #101050;
+    background-image: url('https://i.redd.it/wbnn4jk6p9j31.jpg');
+    background-size: 8000px ;
+}
